@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    background: linear-gradient(to right, #67b26f, #4ca2cd);
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+.box{
+  min-height: 100vh;
+  color: #fff;
+}
+
+.box h2{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.box a {
+  color: #fff;
+  background: transparent;
+  padding: 5px 10px;
+  margin: 8px 4px;
+  font-size: 1.5rem;
+  border-radius: 25px;
+  box-shadow: 1px 1px 4px 3px rgba(255, 255, 255, 0.7);
+  transition: 0.3s ease;
+}
+
+.box a:hover {
+  color: #000;
+  box-shadow: 1px 1px 3px 2px red;
+  text-decoration: none;
+}
+ @media only screen and (min-width: 768px){
+  a{
+    font-size: 0.6rem;  
+  }
+} 
+
