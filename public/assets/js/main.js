@@ -1,6 +1,6 @@
 // ================= Preloader ======== //
 $(window).on('load', ()=> { 
-    $("#preloader").delay(2500).fadeOut(200, "linear"); 
+    $("#preloader").delay(1600).fadeOut(200, "linear"); 
   });
 
 //=====================================//

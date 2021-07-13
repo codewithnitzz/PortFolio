@@ -3,7 +3,6 @@
   "version": "1.0.1",
   "description": "",
   "main": "server.js",
-  "homepage": "https://codewithnitzz.github.io/PortFolio/public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
